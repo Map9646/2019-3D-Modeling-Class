@@ -1,6 +1,10 @@
 //Maya ASCII 2018 scene
 //Name: Baby Bottle.ma
+<<<<<<< Updated upstream
 //Last modified: Fri, Jan 11, 2019 10:17:34 PM
+=======
+//Last modified: Thu, Jan 10, 2019 02:17:52 PM
+>>>>>>> Stashed changes
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +17,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "28F8AFBD-4724-399C-5D39-4CB349240C7C";
 	setAttr ".v" no;
+<<<<<<< Updated upstream
 	setAttr ".t" -type "double3" -5.1172161485374756 20.396822597558842 29.606361259569667 ;
 	setAttr ".r" -type "double3" -24.938352726256223 -12.999999999995234 0 ;
+=======
+	setAttr ".t" -type "double3" -0.20398434465987264 21.446592465001274 37.634499616032336 ;
+	setAttr ".r" -type "double3" -18.938352726315099 359.00000000021362 -2.4851868508878741e-17 ;
+>>>>>>> Stashed changes
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A60572C3-4E64-0288-F20C-EE91B1E15CEF";
 	setAttr -k off ".v" no;
